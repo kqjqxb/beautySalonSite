@@ -1,0 +1,183 @@
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #303030d4;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    z-index: 9999; /* Задайте велике значення z-index, щоб забезпечити, що стрічка буде поверх змісту */
+  }
+  
+  #room
+  {
+    color: #bbe1ed;
+  }
+
+  .content {
+    padding: 20px;
+    margin-top: 145px;
+  }
+
+  .header-text
+  {
+    padding-left: 7%;
+  }
+  
+
+  #buttons
+  {
+    margin-top: 145px;
+  }
+
+
+  #phone-button
+  {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 25px;
+    border: none;
+  }
+
+  #phone-button:hover
+  {
+    border: none;
+  }
+  
+  a>.phone-number:hover {
+      text-decoration: underline; /* Підкреслення тексту */
+      color: black; /* Зміна кольору тексту при наведенні */
+  }
+    
+  
+  #phone-button:hover,
+  #phone-button:hover .phone-number {
+      text-decoration: underline;
+      color: black; /* Можете також вказати бажаний колір підкреслення */
+  }
+
+
+
+  pre
+  {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .left-text {
+    float: left; /* Вирівнювання ліворуч */
+    margin-left: 10px; /* Додатковий маргін для відділення від краю */
+  }
+
+  .center-text {
+    display: inline-block; /* Центрування */
+  }
+  
+  .right-text {
+    float: right; /* Вирівнювання праворуч */
+    margin-right: 10px; /* Додатковий маргін для відділення від краю */
+  }
+
+  /* #head-right
+  {
+    background-color: #55606e;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    
+  } */
+
+  #clock 
+  {
+    text-align: center;
+    font-size: 35px;
+    
+    color: white;
+    padding: 10px;
+    font-style: menlo;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  #date
+  {
+    text-decoration: underline;
+    text-align: center;
+    color: #bbe1ed;
+    font-size: 14px;
+  }
+
+  
+
+  @media screen and (max-width: 1200px) {
+    .phone-number {
+        font-size: 12px; /* Зменшуємо розмір шрифту */
+        padding: 5px 10px; /* Зменшуємо внутрішні відступи */
+    }
+
+    #head-right {
+        text-align: right;
+        font-size: 12px;
+        margin-top: 5px; /* Змініть відступ, якщо потрібно */
+    }
+
+    .fixed-header{
+      padding: 21px;
+
+    }
+    .header-text{
+      font-size: 17px;
+    }
+
+    #phone-button
+    {
+      font-size: 14px;
+      margin: 7px;
+    }
+
+
+
+
+    #salon-name{
+      font-size: 17px !important;
+      font-style: italic;
+    }
+
+    #clock{
+      font-size: 19px;
+      float: right;
+      margin-top: 0px;
+    }
+    #date
+    {
+      /* color: black !important; */
+      
+      position: absolute;
+      font-size: 10px;
+      float: right;
+      margin-top: 30px;
+      margin-left: 10px;
+      /* margin-left: 300px; */
+    }
+
+}
+
+
+
+
+
+
+  

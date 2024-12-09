@@ -1,0 +1,30 @@
+@keyframes pulseText {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* Стилі для анімації тексту */
+  #animationAlert {
+      background-color: #652532;
+      color: #d3d7e0;
+      
+      display: inline-block;
+      animation: pulseText 2s infinite;
+  }
+
+#logo:hover
+{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+#logo
+{
+    transition: transform 0.3s ease-in-out;
+}

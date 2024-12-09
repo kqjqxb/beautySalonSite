@@ -1,0 +1,121 @@
+#julia
+{
+    background-color: #bbe1ed;
+
+    border-color: rgb(255, 255, 255);
+    border: 3px solid #fff; /* Товщина, тип та колір рамки */
+    border-radius: 10px;
+
+}
+
+
+#price-but
+{
+    font-family: "Tai Le v2", cursive !important;
+}
+
+
+
+
+.price-button
+{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 25px;
+    border-color: #ffffff;
+
+    width: 100px;
+}
+.price-button:hover
+{
+    color: rgb(0, 0, 0);
+    background-color: #bbe1ed;
+    border-color: black;
+}
+
+
+
+
+.price-button:active,
+.price-button:focus {
+    background-color: #bbe1ed !important; /* зберігає колір фону */
+    border-color: black !important; /* зберігає колір рамки */
+    color: inherit !important; /* зберігає колір тексту */
+    outline: none !important; /* відключає обводку */
+}
+
+
+
+
+
+
+
+
+
+.card-text
+{
+    color: rgb(61, 61, 61);
+    font-family: "Tai Le v2", cursive !important;
+    /* font-weight: bold; */
+}
+
+
+
+#skip
+{
+    margin-top: 145px;
+}
+
+
+@media screen and (max-width: 1200px) 
+{
+    #skip
+    {
+      margin-top: 130px;
+    }
+
+    .row-bottom-skip
+    {
+        padding-top: 10px;
+    }
+
+    .row-bottom-skip>p
+    {
+        margin: 0px;
+        padding-top: 10px;
+    }
+    .card-text
+    {
+        font-size: 19px;
+    }
+}
+
+
+
+
+
+
+
+
+
+#main
+{
+    font-size: 25px;
+    font-style: menlo !important;
+    text-decoration: underline;
+    color: rgb(49, 43, 43);
+}
+
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animate-on-scroll.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+

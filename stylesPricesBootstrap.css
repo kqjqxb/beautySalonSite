@@ -1,0 +1,135 @@
+/* styles.css */
+
+/* Основне оформлення */
+.price-list {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.price-list h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Оформлення для послуг та цін */
+.list-group-item {
+    border: none;
+}
+
+.list-group-item:nth-child(even) {
+    background-color: #e9ecef;
+}
+
+.list-group-item:hover {
+    background-color: #dee2e6;
+    cursor: pointer;
+}
+
+.list-group-item .badge {
+    /* background-color: #007bff; */
+    /* color: pink; */
+    background-color: pink;
+    /* background-color: #bbe1ed; */
+    font-size: 1rem;
+    padding: 8px 12px;
+}
+
+/* Медіа-запити для адаптивності */
+@media (max-width: 576px) {
+    .price-list {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+#description
+{
+    font-style: italic;
+    font-size: 12px;
+    font-family: "CarrierII", cursive !important;
+}
+
+
+#price-title
+{
+    font-family: "Script Royal", cursive;
+    font-style: italic;
+}
+
+#price
+{
+    font-family: "Tai Le v2", cursive;
+    font-style: italic;
+}
+
+.prices-pr
+{
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+}
+
+#price-but
+{
+    font-family: "Tai Le v2", cursive;
+}
+
+
+
+#price-sugar
+{
+    font-size: 14px;
+    font-family: "Tai Le v2", cursive;
+    font-style: italic;
+    width: 100px;
+}
+
+
+#price-nails
+{
+    font-family: "Tai Le v2", cursive;
+    font-style: italic;
+    width: 95px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .list-group-item
+    {
+        font-size: 10px;
+    }
+    #price-nails
+    {
+        /* font-style: normal !important; */
+    }
+    #description
+    {
+        font-family: "Sans-serif", cursive !important;
+        
+        font-size: 8.5px;
+    }
+
+    .discr-perm
+    {
+        padding-left: 5px;
+    }
+
+    #price-nails
+    {
+        width: 62px;
+        font-size: 10px;
+    }
+    .list-group-item h5 #description #price-nails #price-sugar{
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}

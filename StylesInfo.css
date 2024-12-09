@@ -1,0 +1,86 @@
+/* .icon
+{
+    margin-left: 280px;
+    margin-top: 40px;
+} */
+
+/* Застосовуємо стилі для іконки info */
+.icon-container {
+    position: relative;
+}
+
+.message {
+    float: left;
+    font-style: italic;
+
+    text-align: left;
+    position: absolute;
+    bottom: -140%;
+    left: -500%;
+    right: 0;
+    transform: translate(50%, 50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.icon-container:hover .message {
+    
+    display: block;
+}
+
+
+.message {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6d7;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.message a
+{
+    display: block;
+    font-style: italic;
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.message a:hover
+{
+    text-decoration: underline !important;
+    float: left;
+}
+
+.icon-container 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.icon-container:hover .message {
+    display: block;
+    
+}
+
+
+@media screen and(max-width: 1400px) 
+{
+    .message
+    {
+        bottom: -140%;
+        left: -500%;
+        
+        text-align: left;
+        float: left;
+    }
+    .message a
+    {
+        display: block;
+    }
+}

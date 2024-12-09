@@ -1,0 +1,19 @@
+p
+{
+   color: purple;
+}
+
+#paragr1
+{
+   color: rgb(59, 164, 225);
+}
+
+#paragr2
+{
+   color: rgb(13, 19, 200);
+}
+
+b:hover, #paragr2:hover, #paragr1:hover
+{
+   color: plum;
+}

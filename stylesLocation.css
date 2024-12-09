@@ -1,0 +1,49 @@
+.phone-number 
+{
+    color: blue; /* Колір тексту для номеру телефону (можете змінити на власний) */
+    cursor: pointer;
+    text-decoration: none; /* Відключення підкреслення за замовчуванням */
+}
+
+.phone-number:hover 
+{
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+/* Застосовувати стилі тільки для конкретного посилання */
+#paragr1 a.phone-number:hover 
+{
+    text-decoration: underline;
+}
+
+/* Відключення підкреслення для всіх інших посилань */
+a:not(.phone-number):not(#up-but) 
+{
+    text-decoration: none;
+}
+
+#wannaSite
+{
+    background-color: #652532;
+    border-color: #652532;
+    border-radius: 25px;
+    
+    transition: transform 0.3s ease-in-out;
+}
+
+#wannaSite:hover
+{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+#direct
+{
+    transition: transform 0.3s ease-in-out;
+}
+
+#direct:hover
+{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.03);
+}

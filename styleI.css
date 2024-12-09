@@ -1,0 +1,85 @@
+/* a:hover
+{
+    color: plum;
+} */
+
+a:hover
+{
+    color: #652532; /*#4d1b26*/
+}
+
+/* body
+{
+    background-color: #4d1b26;
+} */
+
+body>.conteiner
+{
+    background-color: rgb(69, 69, 69);
+}
+
+a
+{
+    color: black;
+}
+/* img
+{
+    width: 240;
+    height: 135;
+} */
+
+img {
+    border: none;
+}
+
+.card-img-top:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+
+.card-img-top
+{
+    user-select: none;
+    border-radius: 10px;
+    border: none; /* Приховати рамку */
+    box-shadow: none;
+    overflow: hidden; 
+    outline: none;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* #masters-info
+{
+    background-color: white;
+    border-radius: 7px;
+} */
+
+#up-but
+{
+    border-radius: 10px;
+    padding-top: 70px;
+    background-color: #652532;
+    color: #d3d7e0;
+    text-align: center;
+    padding-bottom: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+#up-but:hover
+{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+/* .card-img-top
+{
+    width: 250px;
+    height: 250px;
+} */
+
+.background-b
+{
+    background-image: url('bmw_m5.jpg');
+    background-attachment: fixed;
+}

@@ -1,0 +1,89 @@
+#new
+{
+    font-size: 80%; /* Зменште розмір тексту на 80% */
+    padding: 0.2rem 0.4rem;
+    background-color: #652532;
+    color: #d3d7e0;
+    border: none; /* Приховати рамку */
+    box-shadow: none;
+}
+
+@keyframes pulseText {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    /* Стилі для анімації тексту */
+    #animationAlert {
+        background-color: #652532;
+        color: #d3d7e0;
+        
+        display: inline-block;
+        animation: pulseText 2s infinite;
+    }
+
+#logo:hover
+{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+#logo
+{
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+/* @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } */
+  
+  /* .card img 
+  {
+    animation: fadeIn 1s ease-out; тривалість анімації та функція згладжування (easing) можуть бути змінені за потребою 
+  } */
+
+
+
+
+/* #logo {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+#logo {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+
+#logo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+}
+ */
